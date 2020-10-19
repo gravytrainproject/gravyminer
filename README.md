@@ -1,7 +1,7 @@
 # gravyminer
 Mine GRV with Nodejs
 
-GRAVY is a HFT Trading strategy on the EOS main-net. Its business logic is driven by miners who push mine actions to the chain at regular intervals. The more mine actions pushed to the system, the more arbitrage profits earned by the trading strategy. 
+GRAVY is a HFT Trading strategy on the EOS main-net. Its business logic is driven by miners who push mine actions to the chain at regular intervals. The more mine actions pushed to the system, the greater the probability of earning arbitrage profits by the trading strategy. 
 
 The GRAVYMINER is a Nodejs script which pushes mine actions at regular intervals to the GRAVY mining contract (gravyhftdefi). Miners donate their CPU resources and receive GRV in return for each successful mine action. GRV can be staked in order to earn a portion of EOS trading profits. 
 
