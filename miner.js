@@ -56,4 +56,4 @@ async function heartbeat(){
 }
 
 heartbeat();
-my_timer = setInterval(heartbeat, mining_interval);
+my_timer = setInterval(heartbeat, mining_interval_ms);
