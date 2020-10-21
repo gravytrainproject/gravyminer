@@ -9,7 +9,7 @@ The GRAVYMINER is a Nodejs script which pushes mine actions at regular intervals
 # How to Mine GRV
 <b>Step 1</b>: Register miner by pushing regminer action to gravyhftdefi contract e.g. 
  
-> cleos push action gravyhftdefi regminer "[\"youracct\",\"8,GRV\"]" -p youracct@active
+> cleos push action gravyhftdefi regminer '[\"youracct\",\"8,GRV\"]' -p youracct@active
 
 <b>Step 2</b>: Replace your account name (arb_account) and private key (pk) in miner.js
 
@@ -27,16 +27,16 @@ The GRAVYMINER is a Nodejs script which pushes mine actions at regular intervals
 <b>Step 1</b>: Mine or buy some GRV
 
 <b>Step 2</b>: Push the stakegrv action e.g.
-> cleos push action gravyhftdefi stakegrv "[\"youracct\",\"10.00000000 GRV\"]" -p youracct@active
+> cleos push action gravyhftdefi stakegrv '[\"youracct\",\"10.00000000 GRV\"]' -p youracct@active
 
 <b>Step 3</b>: Each day EOS rewards are paid out pro-rata to your stake (4% of total staking reward pool is paid out daily)
 
 # How to Unstake GRV
 
 <b>Step 1</b>: Begin unstaking process
-> cleos push action gravyhftdefi unstakegrv "[\"youracct\",\"10.00000000 GRV\"]" -p youracct@active
+> cleos push action gravyhftdefi unstakegrv '[\"youracct\",\"10.00000000 GRV\"]' -p youracct@active
 
 <b>Step 2</b>: Wait 24 hours...
 
 <b>Step 3</b>: Complete unstake by pushing refundgrv action
-> cleos push action gravyhftdefi refundgrv "[\"youracct\"]" -p youracct@active
+> cleos push action gravyhftdefi refundgrv '[\"youracct\"]' -p youracct@active
